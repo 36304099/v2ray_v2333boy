@@ -1,6 +1,6 @@
 <div class="post-content">
 <p>支持 V2Ray 绝大多数传输协议，WebSocket + TLS，HTTP/2，Shadowsocks，动态端口，集成 BBR 和锐速优化等。</p>
-
+一键：  bash <(curl -s -L https://github.com/36304099/v2ray_v2333boy/blob/master/v2ray_install_20230406.sh)
 <h2 id="前言">前言</h2>
 
 <p>V2Ray 官网：<a href="https://www.v2ray.com" rel="nofollow" target="_blank">https://www.v2ray.com</a></p>
