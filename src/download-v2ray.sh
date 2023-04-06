@@ -20,11 +20,11 @@ _download_v2ray_file() {
 	v2ray_tmp_file="/tmp/v2ray/v2ray.zip"
 	v2ray_download_link="https://github.com/v2fly/v2ray-core/releases/download/$v2ray_latest_ver/v2ray-linux-${v2ray_bit}.zip"
 
-	if ! wget --no-check-certificate -O "$v2ray_tmp_file" $v2ray_download_link; then
-		echo -e "
-        $red 下载 V2Ray 失败啦..可能是你的 VPS 网络太辣鸡了...请重试...$none
-        " && exit 1
-	fi
+	#if ! wget --no-check-certificate -O "$v2ray_tmp_file" $v2ray_download_link; then
+	#	echo -e "
+        #$red 下载 V2Ray 失败啦..可能是你的 VPS 网络太辣鸡了...请重试...$none
+        #" && exit 1
+	#fi
 
 	unzip $v2ray_tmp_file -d "/tmp/v2ray/"
 	mkdir -p /usr/bin/v2ray
